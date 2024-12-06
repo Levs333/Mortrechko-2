@@ -1,57 +1,69 @@
-header h1{
-    text-align:center;
-    color: yellow;
-}
-header img{
-    width: 220px;
+body {
+    font-family: sans-serif;
 }
 
-
-header{
-    background-color: black;
-color:yellow ;
-}
-p {
- 
-   color: rgb(0, 0, 0);
+header {
+    background-color: rgb(241, 241, 241);
+    padding: 5px;
 }
 
-body{
-    background-color: yellow;
+.logo{
+    width: 209px;
+    height: 167px;
 }
 
-main{
+nav{
+   margin: 10px 0px;
+   text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    padding-right: 60px; 
+    color: black;
+}
+
+.main_img{
+    width: 100%;
+    height: 30%;
+}
+
+h1 {
+    font-size: 36px;
+    color: rgb(169, 89, 245);
+    font-weight: normal;
+    padding-bottom: 5px;
     text-align: center;
 }
 
-main img{
-    width:250px;
+
+footer {
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
 }
 
-header a {
-    text-align:center;
-    background-color: rgb(255, 238, 0);
+footer p {
+    background-color: white;
+    padding: 5px;
+ }
+
+footer a {
+    background-color: rgb(248, 167, 230);
     color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 16px;
-    padding:10px;
+    padding: 10px 25px;
     border-radius: 10px;
-    margin:82.2px;
 }
 
-.bl{
-    color:black;
+footer img{
+    width: 300px;
 }
-
-.imaag{
-    width:500px;
-}
-
-footer p{
+h1 {
+    font-size: 36px;
+    color: rgb(169, 89, 245);
+    font-weight: normal;
+    padding-bottom: 5px;
     text-align: center;
-    background-color: black;
-}
-
-p{
-    font-size: large;
 }
